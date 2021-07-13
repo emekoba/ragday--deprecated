@@ -1,0 +1,79 @@
+
+.ragday
+{
+  margin: auto;
+  height: 500px;
+  width: 800px;
+  border: 6px solid var(--theme);
+  border-radius: 10px;
+  box-shadow:  -5px 5px 10px 0px #888;
+  margin-top: 100px;
+  margin-top: 30px;
+  margin-top: 60px;
+  background-color: white;
+  
+  /* zoom: 0.8; */
+
+}
+
+
+.splash > img
+{
+  height: 100%;
+  width: 100%;
+  transition: opacity 100ms ease-in-out 1s;  
+}
+
+
+.ragday-menu
+{
+  border: 1px solid;
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+        }.types{
+
+          flex: 1;
+          border: 1px solid var(--theme);
+          display: grid;
+          grid-template-columns: 1fr;
+          /* justify-content: space-between; */
+          overflow-y: scroll;
+          align-items: center;
+          height: 100%;
+          /* background-color: var(--theme); */
+
+
+                    }.types > button{
+
+                      border: 1px solid;
+                      height: 120px;
+                      width: 180px;
+                      margin-top: 40px;
+                      border-radius: 10px;
+                      margin-left: 30px ;
+                      /* background-color: var(--theme); */
+                      /* background-color: white; */
+                    }
+
+        .templates
+        {  
+          flex: 2;
+          border: 1px solid var(--theme);
+          padding: 30px;
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 20px;
+          /* background-color: var(--theme); */
+
+
+                    }.templates > button{
+
+                      border: 1px solid;
+                      margin-top: 10px;
+                      border-radius: 10px;
+                      /* background-color: var(--theme); */
+                      /* background-color: white; */
+
+                    }

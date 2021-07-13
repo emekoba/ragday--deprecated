@@ -1,0 +1,10 @@
+[0309/020255.800:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0315/210507.540:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0315/210508.509:ERROR:exception_snapshot_win.cc(98)] thread ID 22604 not found in process
+[0315/210508.509:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0114/165007.270:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0119/184941.186:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0119/185941.187:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0119/185941.187:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0119/185941.189:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0119/185941.189:ERROR:crash_report_database_win.cc(455)] unexpected header
